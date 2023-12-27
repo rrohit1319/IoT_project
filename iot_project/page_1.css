@@ -1,0 +1,110 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: 786px 1366px; /* Make body take 100% of the viewport height */
+  margin: 0;
+  padding: 0;
+  overflow: initial; /* overflow: hidden; Hide any content that exceeds the viewport */
+}
+.project-header {
+  text-align: center;
+  padding: 10px;
+  background-attachment: fixed;
+  background-color: rgb(141, 116, 85);
+  color: white;
+}
+.navbar {
+  width: 15vw;
+  height: 100vh;
+  background-color: #333;
+  overflow: hidden;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 16px 16px;
+}
+.navbar ul li {
+  float: left;
+  padding: 3%;
+  margin: 3px;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #131111;
+  color: aliceblue;
+}
+section {
+  padding: 30px;
+  margin-left: 20%;
+  margin-top: 5%;
+  border: 2px solid rgb(53, 36, 36);
+  width: 50%;
+  height: 25%;
+  box-shadow: 5px 5px 10px grey;
+}
+
+section h2 {
+  color: #000000;
+}
+
+section p {
+  color: #666;
+}
+.project-team {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  overflow: hidden;
+}
+.project-team h2 {
+  color: #000000;
+}
+.project-team ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-team ul li {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+.project-team li:last-child {
+  border-bottom: none;
+}
+
+.project-team li:hover {
+  background-color: #eee;
+}
+.project-team li::before {
+  content: "\2022"; /* Unicode character for a bullet point */
+  color: #555;
+  font-size: 1.2em;
+  margin-right: 8px;
+}
+.next {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.next:hover {
+  background-color: #555;
+}
